@@ -19,6 +19,7 @@ public class Student {
     // 平均点を算出するメソッド
     public double calculateAverage() {
         return Math.floor((japaneseScore + mathScore + englishScore) / 3.0 * 100) / 100; // 3科目の平均点（小数点第2位以下切り捨て）
+
     }
  
     // 合計点を算出するメソッド
